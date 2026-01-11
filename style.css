@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    ;
+}
+
+/* common cls */
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.my-btn {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 106, 80, 1);
+    border-radius: 8px;
+    padding: 15px 30px;
+    color: white;
+    background-color: #006A50;
+    font-weight:600;
+
+
+}
+
+.signin-btn {
+    padding: 15px 30px;
+    font-size: 1;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 106, 80, 1);
+    ;
+}
+
+
+
+
+
+
+header {
+    background-color: antiquewhite;
+}
+
+nav {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+    padding: 24px 0;
+    align-items: center;
+
+
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+}
+
+#hero {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #C6E4D6;
+    padding:80px;
+     border-radius: 20px;
+   
+}
+
+#hero .hero-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.left-hero .cap{
+    color: rgba(14,14,14, 0.5);
+
+    /* /* align-items:center; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+}
+.left-hero p{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 56px;
+    /* gap: 20px; */
+    border: 1px solid red;
+    margin-bottom: 20px;
+    
+
+}
+.pillar{
+
+}
+.pillar-card{
+    background-color: white;
+    border-radius: 15px;
+border: 1px solid red;
+padding: 20px;
+}
+.pillar-card-parrent{
+    display: flex;
+    gap: 30px;
+}
+.pillar h2{
+    margin-bottom: 20px;
+}
